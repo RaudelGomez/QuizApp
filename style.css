@@ -6,4 +6,25 @@ body {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	background-color: #007aff;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #007aff;
+}
+
+.question-footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 16px;
+	border-top: 1px solid rgba(0 0 0/40%);
+}
+
+.quiz-card {
+	width: 30rem;
 }

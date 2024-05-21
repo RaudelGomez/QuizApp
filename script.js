@@ -1,1 +1,60 @@
+let questions = [
+	{
+		question: "Wer hat HTML erfunden?",
+		answer1: "Robbie Williams",
+		answer2: "Lady Gaga",
+		answer3: "Tim Berners-Lee",
+		answer4: "Justin Bieber",
+		right_answer: 3,
+	},
+	{
+		question: "Was beutet das HTML tag &lt;a&gt;?",
+		answer1: "Text Fett",
+		answer2: "Container",
+		answer3: "Ein Link",
+		answer4: "Kursiv",
+		right_answer: 3,
+	},
+	{
+		question: "Was beutet das HTML Tag a?",
+		answer1: "anchor",
+		answer2: "amigo",
+		answer3: "another",
+		answer4: "allow",
+		right_answer: 1,
+	},
+	{
+		question: "Welches attribute kan man NICHT füt textarea verwenden?",
+		answer1: "readonly",
+		answer2: "max",
+		answer3: "from",
+		answer4: "spellcheck",
+		right_answer: 1,
+	},
+	{
+		question: "Was macht das HTML tag strong?",
+		answer1: "Grope Buchstabe",
+		answer2: "Text Fett",
+		answer3: "Kleine Buchstabe",
+		answer4: "Nichts",
+		right_answer: 2,
+	},
+	{
+		question: "Welches Element ist ein block Element?",
+		answer1: "a",
+		answer2: "span",
+		answer3: "b",
+		answer4: "p",
+		right_answer: 4,
+	},
+	{
+		question: "Welches Tag gehört nicht zu HTML?",
+		answer1: "main",
+		answer2: "side",
+		answer3: "div",
+		answer4: "article",
+		right_answer: 2,
+	},
+];
 
+function init() {}
