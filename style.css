@@ -13,7 +13,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 90vh;
 	background-color: #007aff;
 }
 
@@ -27,4 +27,33 @@ body {
 
 .quiz-card {
 	width: 30rem;
+}
+
+.quiz-answer-card {
+	transition: all 75ms ease-in-out 25ms;
+}
+
+.quiz-answer-card:hover {
+	cursor: pointer;
+	background-color: rgba(0 0 0/5%);
+}
+
+.bg-success,
+.bg-danger {
+	color: white;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.button-row {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 16px;
+}
+
+.cursor-disabled {
+	pointer-events: none;
 }
