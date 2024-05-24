@@ -115,7 +115,7 @@ function updateNextQuestion() {
 
 function answer(currentAnswer) {
 	let question = questions[currentQuestion];
-	let selectQuestionNumber = +currentAnswer.slice(-1);
+	let selectQuestionNumber = +currentAnswer.slice(-1); //con esto me quedo con el ultimo valor osea seria 1, 2, 3 o 4)
 	let idRightAnswer = `answer_${question.right_answer}`;
 	if (rightAnswerSelected(question, selectQuestionNumber)) {
 		wellDone(selectQuestionNumber);
